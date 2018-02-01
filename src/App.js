@@ -96,7 +96,7 @@ class App extends Component {
             <div id="board" onClick={(e)=>{this.boardClicked(e)}}>
               { this.state.board.map((cell, idx) => {
                 return <div className="square" box={idx}>
-                        {cell}
+                          {cell}
                        </div>
               })}
             </div>

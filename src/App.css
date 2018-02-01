@@ -19,6 +19,13 @@
   cursor: pointer;
   user-select: none;
 }
+
+.square.player1 {
+  background-color: red;
+}
+.square.player2 {
+  background-color: blue;
+}
 .square:hover{
   background-color: #eeeeee;
 }
@@ -55,8 +62,8 @@
   color:green
 }
 #footer{
-  padding:15px;
-  margin:10px;
+  padding-top:15px;
+  margin-top:10px;
   height:50px;
   width:100%;
   display:flex;
