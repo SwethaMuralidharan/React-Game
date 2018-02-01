@@ -1,7 +1,10 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  /*box-sizing:border-box;*/
+}
+.App{
+  height:600px;
 }
 #board{
   display: flex;
@@ -62,12 +65,20 @@
   color:green
 }
 #footer{
-  padding-top:15px;
+  padding-top:50px;
   margin-top:10px;
-  height:50px;
+  padding-bottom: 35px;
+  height:80px;
   width:100%;
   display:flex;
   justify-content: center;
   align-items:center;
   background-color: #727226;
+}
+.reset{
+  padding-top:15px;
+  margin-top:10px;
+}
+#react{
+  color:purple;
 }

@@ -100,10 +100,13 @@ class App extends Component {
                        </div>
               })}
             </div>
-              <button type="button" className="btn btn-primary" onClick={this.resetgame}>Reset Game</button>
+            <div className="reset">
+                <button type="button" className="btn btn-primary" onClick={this.resetgame}>Reset Game</button>
+            </div>
         </div>
         <div id="footer">
-            Created in React.js by Swetha.
+            CopyRight@2018.
+            <div>Created in    <span id="react">   React.js   </span>     by Swetha.</div>
         </div>
       </div>
     );
