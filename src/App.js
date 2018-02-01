@@ -49,6 +49,7 @@ class App extends Component {
           winnerLine: 'Match ends in draw.'
         })
       }
+       e.target.className=((this.state.turn === 'X')? "square player1" : "square player2");
     }
   }
   resetgame(e){
@@ -60,6 +61,10 @@ class App extends Component {
       totalMoves:0,
       winnerLine:''
     })
+    for(let i=0;i<=8;i++){
+      document.getElementsByClassName("square")[i].classList.remove("player1");
+      document.getElementsByClassName("square")[i].classList.remove("player2");
+    }
   }
   checkWinningCondiition(){
     var winner_moves=[
